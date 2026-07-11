@@ -2,11 +2,13 @@
     margin: 0;
     padding: 0;
 }
+.container {
+    margin: 20px 8%;
+}
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 8%;
     background-color: white;
 }
 
@@ -76,29 +78,50 @@ nav {
     padding: 16px 48px;
     font-size: 18px;
 }
-/* .meet-speakers{
+.meet-speakers{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 50px 8%;
-    background-color: #d1b2b2;
+    margin-bottom: 70px;
+    font-family: "Inter", sans-serif;
 }
 .meet-speakers h1 {
     margin-bottom: 50px;
     font-size: 40px;
+    margin-top: 50px;
 }
 .speaker-card {
     display: grid;
     justify-content: space-between;
     grid-template-columns: repeat(2,1fr);
     gap: 30px;
-    padding: 0px 15%;
 
 }
 .speaker-card div {
-    max-width: 100%;
+    border: 1px solid #E5E7EB;
+    border-radius: 12px;
+    overflow: hidden;
 }
 .speaker-card div img {
-    /* max-width: 100%; */
-} */
+    max-width: 100%;
+    margin-bottom: 15px;
+}
+.speaker-card div p {
+    padding: 10px 25px;
+    
+}
+.sp-catergory {
+    color: #2563EB;
+    font-weight: bold;
+    
+}
+.sp-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #0D1B2A;
+}
+.sp-title {
+    color: #575757;
+    margin-bottom: 15px;
+}
