@@ -88,7 +88,7 @@ nav {
 }
 .meet-speakers h1 {
     margin-bottom: 50px;
-    font-size: 40px;
+    font-size: 45px;
     margin-top: 50px;
 }
 .speaker-card {
@@ -99,7 +99,7 @@ nav {
 
 }
 .speaker-card div {
-    border: 1px solid #E5E7EB;
+    border: 2px solid #E5E7EB;
     border-radius: 12px;
     overflow: hidden;
 }
@@ -125,3 +125,87 @@ nav {
     color: #575757;
     margin-bottom: 15px;
 }
+.secure-spot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 90px;
+    font-family: "Inter", sans-serif;
+}
+.secure-spot h1 {
+    font-size: 45px;
+    margin-bottom: 8px;
+}
+.secure-spot p {
+    color: #575757;
+}
+.pricing-parent {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 20px ;
+    gap: 25px;
+    margin: 30px 0px;
+}
+.pricing-card {
+    border: 2px solid #E5E7EB;
+    padding: 30px;
+    border-radius: 12px;
+}
+.pricing-card div {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.plan-name {
+    color: #888888;
+    font-weight: 600;
+    margin: 4px;
+}
+.pricing-card div h1 {
+    color: #0D1B2A;
+    margin: 0;
+}
+.pricing-card div p {
+    color: #888888;
+    margin-bottom: 5px;
+}
+.pricing-card ul {
+    margin-left: 18px;
+}
+.pricing-card ul li::marker{
+    color: #2563EB;
+}
+.pricing-card ul li {
+    color: #333333;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+.p-btn {
+    margin-top: 20px;
+    background-color: #FFFFFF;
+    color: #2563EB;
+    border: 1px solid #2563EB;
+    border-radius: 8px;
+}
+#middle-card {
+    background-color: #0D1B2A;
+}
+#middle-card .plan-name {
+    color: #93C5FD;
+}
+#middle-card div h1 {
+    color: #FFFFFF;
+}
+#middle-card .p-btn {
+    color: #FFFFFF;
+    background-color: #2563EB;
+}
+ #middle-card ul li {
+    color: #FFFFFF;
+    opacity: 0.8;
+ }
+ #team-btn {
+    border-color: #0D1B2A;
+    color: #0D1B2A;
+ }
